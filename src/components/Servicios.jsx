@@ -11,27 +11,45 @@ export default function Servicios() {
     >
       <h2 className="section-title">Servicios</h2>
 
+      <p className="section-subtitle">
+        Soluciones digitales pensadas para comunicar mejor tu marca y generar
+        resultados reales.
+      </p>
+
       <div className="servicios-grid">
         <div className="servicio-card">
           <h3>Diseño Web</h3>
-          <p>Landing pages, sitios completos y diseños modernos.</p>
+          <p>
+            Landing pages y sitios web profesionales enfocados en mostrar tu
+            propuesta de valor y convertir visitas en contactos.
+          </p>
         </div>
 
         <div className="servicio-card">
           <h3>Responsive Design</h3>
-          <p>Tu sitio se adapta perfectamente a cualquier dispositivo.</p>
+          <p>
+            Tu sitio se adapta perfectamente a celulares, tablets y computadoras
+            para una experiencia fluida en cualquier dispositivo.
+          </p>
         </div>
 
         <div className="servicio-card">
           <h3>Branding</h3>
-          <p>Identidad visual, colores, tipografías y estilo profesional.</p>
+          <p>
+            Identidad visual coherente y profesional: colores, tipografías y
+            estilo alineados a la personalidad de tu marca.
+          </p>
         </div>
 
         <div className="servicio-card">
           <h3>Optimización UX</h3>
-          <p>Experiencias fluidas, intuitivas y centradas en el usuario.</p>
+          <p>
+            Diseño centrado en el usuario para que navegar tu sitio sea simple,
+            intuitivo y agradable.
+          </p>
         </div>
       </div>
     </section>
   );
 }
+
