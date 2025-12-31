@@ -17,7 +17,7 @@ export default function Servicios() {
       </p>
 
       <div className="servicios-grid">
-        <div className="servicio-card">
+        <div className={`servicio-card fade-card ${visible ? "visible" : ""}`}>
           <h3>Diseño Web</h3>
           <p>
             Landing pages y sitios web profesionales enfocados en mostrar tu
@@ -25,7 +25,7 @@ export default function Servicios() {
           </p>
         </div>
 
-        <div className="servicio-card">
+        <div className={`servicio-card fade-card ${visible ? "visible" : ""}`}>
           <h3>Responsive Design</h3>
           <p>
             Tu sitio se adapta perfectamente a celulares, tablets y computadoras
@@ -33,7 +33,7 @@ export default function Servicios() {
           </p>
         </div>
 
-        <div className="servicio-card">
+        <div className={`servicio-card fade-card ${visible ? "visible" : ""}`}>
           <h3>Branding</h3>
           <p>
             Identidad visual coherente y profesional: colores, tipografías y
@@ -41,7 +41,7 @@ export default function Servicios() {
           </p>
         </div>
 
-        <div className="servicio-card">
+        <div className={`servicio-card fade-card ${visible ? "visible" : ""}`}>
           <h3>Optimización UX</h3>
           <p>
             Diseño centrado en el usuario para que navegar tu sitio sea simple,
@@ -52,4 +52,5 @@ export default function Servicios() {
     </section>
   );
 }
+
 
