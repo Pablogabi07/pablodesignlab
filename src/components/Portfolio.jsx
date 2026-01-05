@@ -9,7 +9,7 @@ export default function Portfolio() {
       descripcion:
         "E‑commerce de cosmética diseñado para transmitir confianza, destacar productos y facilitar el proceso de compra.",
       img: proyecto1,
-      link: "https://9xw2xn.csb.app/",
+      link: "https://glow-yamila.vercel.app/",
     },
     {
       titulo: "Tropichicas",
@@ -56,3 +56,4 @@ export default function Portfolio() {
     </section>
   );
 }
+
